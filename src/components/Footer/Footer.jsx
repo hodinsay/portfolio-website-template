@@ -6,29 +6,50 @@ const Footer = () => {
         <footer id='footer'>
             <div className='footer-container'>
                 <div>
-                    <p className='footer-name'>Din Ho</p>
-                    <p>A Software Engineer focused on frontend web development building responsive, modern, and semantic websites and web applications.</p>
+                    {/* INSERT YOUR NAME HERE! */}
+                    <p className='footer-name'>John Doe</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam velit eligendi provident ullam vel, laboriosam iste nam labore sapiente distinctio!</p>
                 </div>
                 <div>
                     <p className='footer-social'>Social:</p>
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/hodin81/" target='_blank' aria-label='See Linkedin page'>
+                            {/* INSERT YOUR LINKEDIN PAGE HERE! */}
+                            <a 
+                            href="https://www.linkedin.com/in/" 
+                            target='_blank' 
+                            aria-label='See Linkedin page'
+                            >
                                 <FaLinkedinIn className='fab'/> 
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/hodinsay" target='_blank' aria-label='See GitHub page'>
+                            {/* INSERT YOUR GITHUB PAGE HERE! */}
+                            <a
+                            href="https://github.com/" 
+                            target='_blank' 
+                            aria-label='See GitHub page'
+                            >
                                 <FaGithub className='fab' />
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/hodin81" target='_blank' aria-label='See Twitter page'>
+                            {/* INSERT YOUR TWITTER PAGE HERE! */}
+                            <a 
+                            href="https://twitter.com/" 
+                            target='_blank' 
+                            aria-label='See Twitter page'
+                            >
                                 <FaTwitter className='fab' />
                             </a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/hodin81" target='_blank' aria-label='See Instagram page'>
+                            {/* INSERT YOUR INSTAGRAM PAGE HERE! */}
+                            <a 
+                            href="https://instagram.com/" 
+                            target='_blank' 
+                            aria-label='See Instagram page'
+                            >
                                 <FaInstagram className='fab'/>
                             </a>
                         </li>

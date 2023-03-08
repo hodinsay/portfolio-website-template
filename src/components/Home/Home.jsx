@@ -3,7 +3,8 @@ import { Link } from 'react-scroll';
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 import { FaFileDownload, FaLinkedinIn, FaGithub, FaTwitter, FaInstagram} from 'react-icons/fa';
-import resume from '../../assets/resume3.pdf';
+// IMPORT YOUR RESUME PDF HERE!
+import resume from '../../assets/resume-sample.pdf';
 
 const Home = () => {
     const el = useRef(null);
@@ -11,7 +12,8 @@ const Home = () => {
 
     useEffect(() => {
         const options = {
-            strings: ['Hi, my name is Din Ho'],
+            // INSERT YOUR NAME HERE!
+            strings: ['Hi, my name is John Doe'],
             typeSpeed: 110,
             backSpeed: 110,
         };
@@ -31,34 +33,72 @@ const Home = () => {
                 ref={el}
                 ></span>
             </header>
-            <p>A Software Engineer focused on frontend web development building responsive, modern, and semantic websites and web applications.</p>
+            {/* WRITE A BRIEF DESCRIPTION ABOUT YOURSELF HERE */}
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus dolorem earum cumque eveniet quo minus obcaecati accusantium eum aut temporibus.</p>
             <ul>
                 <li>
-                    <a href={resume} download target='_blank' className='home-buttons'>Resume <FaFileDownload /></a>
+                    <a 
+                    // ADD YOUR IMPORTED RESUME PDF HERE!  
+                    href={resume} 
+                    download target='_blank' 
+                    className='home-buttons'
+                    >
+                        Resume <FaFileDownload />
+                    </a>
                 </li>
                 <li>
-                    <Link to="projects" spy={true} smooth={true} offset={50} duration={500} className='home-buttons' href='#projects'>Projects</Link>
+                    <Link 
+                    to="projects" 
+                    spy={true} 
+                    smooth={true} 
+                    offset={50} 
+                    duration={500} 
+                    className='home-buttons' 
+                    href='#projects'
+                    >
+                        Projects
+                    </Link>
                 </li>
             </ul>
             <nav>
                 <ul>
                     <li>
-                        <a href="https://www.linkedin.com/in/hodin81/" target='_blank' aria-label='See Linkedin page'>
+                        <a 
+                        // ADD YOUR LINKEDIN WEB PAGE HERE!
+                        href="https://www.linkedin.com/in/" 
+                        target='_blank' 
+                        aria-label='See Linkedin page'
+                        >
                             <FaLinkedinIn className='fab'/> 
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/hodinsay" target='_blank' aria-label='See GitHub page'>
+                        <a 
+                        // ADD YOUR GITHUB WEB PAGE HERE!
+                        href="https://github.com/" 
+                        target='_blank' 
+                        aria-label='See GitHub page'
+                        >
                             <FaGithub className='fab' />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/hodin81" target='_blank' aria-label='See Twitter page'>
+                        <a 
+                        // ADD YOUR TWITTER WEB PAGE HERE!
+                        href="https://twitter.com/" 
+                        target='_blank' 
+                        aria-label='See Twitter page'
+                        >
                             <FaTwitter className='fab' />
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/hodin81" target='_blank' aria-label='See Instagram page'>
+                        <a 
+                        // ADD YOUR INSTAGRAM WEB PAGE HERE!
+                        href="https://instagram.com/" 
+                        target='_blank' 
+                        aria-label='See Instagram page'
+                        >
                             <FaInstagram className='fab'/>
                         </a>
                     </li>

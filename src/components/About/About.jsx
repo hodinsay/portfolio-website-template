@@ -1,5 +1,7 @@
 import './About.scss';
-import din from '../../assets/din-294.avif';
+
+// IMPORT YOUR PROFILE PIC HERE!
+import profile from '../../assets/profile-294.avif';
 import { Link } from 'react-scroll';
 
 const About = () => {
@@ -11,35 +13,52 @@ const About = () => {
                 <p className='about-subtitle'>Get to know me.</p>
             </header>
             <figure>
-                <img src={din} alt="din" className='profile-pic' width='294' height='300'/>
+                <img 
+                // INSERT YOUR IMPORTED PROFILE PIC HERE!
+                src={profile} 
+                alt="profile" 
+                className='profile-pic' 
+                width='294' 
+                height='300'
+                />
             </figure>
             <div className='about-flex-container'>
                 <div>
                     <h3 className='about-block-title'>Who I am!</h3>
-                    <p>I am a self-taught <strong>Frontend Web Developer</strong> who focus on the front-end build of websites and web applications. Currently, I am building modern, semantic, and responsive websites with <strong>Vite + React.js</strong> on <strong>VsCode</strong> and deploying them through <strong>Netlify</strong>. Please take your time to check out some of my work under the <strong>Projects</strong> section.</p>
+                    {/* PROVIDE A DESCRIPTIVE SUMMARY ABOUT YOURSELF */}
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni iste enim tenetur itaque. Ea, cupiditate! Officiis odit aliquid autem modi minima eos natus excepturi tempore impedit architecto dicta maxime, quis aut voluptate debitis mollitia! Ratione, expedita nostrum amet totam perferendis ut velit! Repellendus, dolorum! Error soluta animi consectetur ducimus quam!</p>
                     <br />
-                    <p> Everyday, I am learning more and more about the frondend web development while honing my skills as a software engineer. I have also devoted myself to become a <strong>Full-Stack Web Developer</strong> in the future with the proper skills and knowledge to build and maintain the back-end of websites and web applications.</p> 
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, illo iusto explicabo minima quod aperiam? Enim cum magni totam suscipit, nostrum dolores et amet error soluta ad ullam nisi numquam quidem, quod voluptates repellendus, tenetur beatae placeat quos ex veniam!</p> 
                     <br />
-                    <p>I'm open to <strong>Job</strong> opportunities where I can contribute and learn along with a team of like-minded individual. I am <strong>confident </strong> that I will help build the front-end of websites and/or web applications that can leads to the <strong>success</strong> of the overall product for the team and the company. If you have a good opportunity that matches my skills and experience, then please don't hesitate to <strong>Contact</strong> me.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda iusto eaque quas ut eum soluta tenetur corporis in, optio sequi cupiditate numquam quis debitis ab. Ad ipsam dignissimos necessitatibus distinctio autem cupiditate error veniam? Excepturi assumenda quo deleniti impedit, laborum vitae debitis eveniet nemo, fuga, ducimus sapiente saepe placeat.</p>
                     <p className='contact-button-hover'> 
-                        <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className='contact-button' href='#contact'>Contact</Link>
+                        <Link 
+                        to="contact" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500} 
+                        className='contact-button' 
+                        href='#contact'
+                        >
+                            Contact
+                        </Link>
                     </p>
                 </div>
                 <div>
-                    <h3 className='about-block-title'>Tools I use:</h3>
+                    <h3 className='about-block-title'>Techs I use:</h3>
                     <ul>
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>JavaScript</li>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                        <li>MongoDB</li>
-                        <li>Vite</li>
-                        <li>React.js</li>
-                        <li>GIT</li>
-                        <li>SASS</li>
-                        <li>WordPress</li>
-                        <li>VsCode</li>
+                        {/* PROVIDE THE SKILLS AND TECHS YOU KNOW */}
+                        <li>Tech 1</li>
+                        <li>Tech 2</li>
+                        <li>Tech 3</li>
+                        <li>Tech 4</li>
+                        <li>Tech 5</li>
+                        <li>Tech 6</li>
+                        <li>Tech 7</li>
+                        <li>Tech 8</li>
+                        <li>Tech 9</li>
+                        <li>Tech 10</li>
                     </ul>
                 </div>
             </div>
