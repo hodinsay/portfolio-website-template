@@ -1,0 +1,87 @@
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f0ec;
+}
+
+.home-title {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+#home > p {
+  margin-bottom: 5%;
+  width: 50%;
+  text-align: center;
+}
+
+#home > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home > ul > li {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+#home > ul > li:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.home-buttons {
+  padding: 20px 60px;
+  margin-left: 20px;
+  background-color: #fd5c63;
+  color: #fff;
+  -webkit-transition: border-radius 0.5s, -webkit-box-shadow 0.5s;
+  transition: border-radius 0.5s, -webkit-box-shadow 0.5s;
+  transition: border-radius 0.5s, box-shadow 0.5s;
+  transition: border-radius 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.home-buttons:hover {
+  -webkit-box-shadow: 10px 5px 5px #ababab;
+          box-shadow: 10px 5px 5px #ababab;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#home > nav {
+  position: absolute;
+  right: 1%;
+}
+
+.fab {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  -webkit-transition: color 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, transform 0.5s;
+  transition: color 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.fab:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  color: #fd5c63;
+}
+/*# sourceMappingURL=Home.css.map */

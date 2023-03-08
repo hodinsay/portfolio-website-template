@@ -1,0 +1,60 @@
+#nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5%;
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu > li {
+  margin-left: 30px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.nav-menu > li:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.nav-link {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #fd5c63;
+}
+
+.logo {
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #fd5c63;
+}
+/*# sourceMappingURL=Navbar.css.map */

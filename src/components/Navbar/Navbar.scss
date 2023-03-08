@@ -1,0 +1,86 @@
+@mixin neonRedHover{
+    transition: color 0.5s;
+    
+    &:hover{
+        cursor: pointer;
+        color: #A6020C;
+    }
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5%;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu > li{
+    margin-left: 30px;
+
+    transition: transform 0.5s;
+
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+
+.nav-link{
+    @include neonRedHover();
+
+    font-weight: 400;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    @include neonRedHover();
+
+    font-size: 1.5em;
+    color: #333;
+    padding-left: 10px;
+}
+
+.logo-pic{
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+    font-size: 2em;
+}
+
+// Mobile and Tablet viewport
+@media only screen and (max-width: 780px){
+    .hidden{
+        display: block;
+        cursor: pointer;
+    }
+    .nav-menu{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        background-color: #fff;
+        height: 100vh;
+        width: 150px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .nav-menu > li{
+        margin-top: 15%;
+    }
+};

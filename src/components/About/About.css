@@ -1,0 +1,93 @@
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.about-title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 300px;
+  margin-bottom: 40px;
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s;
+  transition: box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+}
+
+.profile-pic:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 3px 3px #ababab, -1em 0 .4em #ababab;
+          box-shadow: 3px 3px #ababab, -1em 0 .4em #ababab;
+  cursor: pointer;
+}
+
+.about-flex-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+
+.about-flex-container > div {
+  width: 30%;
+}
+
+.about-subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-flex-container > div > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-flex-container > div > ul > li {
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #fd5c63;
+  color: #fff;
+  -webkit-transition: border-radius 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: border-radius 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+  transition: border-radius 0.5s, box-shadow 0.5s, transform 0.5s;
+  transition: border-radius 0.5s, box-shadow 0.5s, transform 0.5s, -webkit-box-shadow 0.5s, -webkit-transform 0.5s;
+}
+
+.about-flex-container > div > ul > li:hover {
+  -webkit-box-shadow: 10px 5px 5px #ababab;
+          box-shadow: 10px 5px 5px #ababab;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+/*# sourceMappingURL=About.css.map */
