@@ -39,6 +39,10 @@ Afterward:
 
 Upload the built `dist` folder on https://app.netlify.com/drop 
 
+*Or:* 
+
+Upload through GitHub via Netlify by following this guide: https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/
+
 # Optimization:
 - Feel free to change and optimize the website styling to your liking. 
 - Could enhance image responsiveness via `HTML` attributes `srcset` and `size`.
