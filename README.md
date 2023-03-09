@@ -37,7 +37,7 @@ Afterward:
 
 Afterward:
 
-Upload the build `dist` folder on https://app.netlify.com/drop 
+Upload the built `dist` folder on https://app.netlify.com/drop 
 
 # Optimization:
 - Feel free to change and optimize the website styling to your liking. 
