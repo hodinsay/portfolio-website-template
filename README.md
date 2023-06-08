@@ -1,5 +1,5 @@
 # Din Ho Portfolio Website Template 
-A modern, semantic, and responsive portfolio website template for web developers and software engineers to utilize and deploy for **free** through `Netlify`. The website is accessible on tablet and mobile devices. Google Lighthouse audit scored: `100 Accessibility`, `100 Best Practices`, `100 SEO`, `97 Performance`.
+A modern, semantic, and responsive portfolio website template for web developers and software engineers to utilize and deploy for **free** through `Netlify`. The website is accessible on tablet and mobile devices. Google Lighthouse audit scored: `100 Performance`, `100 Accessibility`, `100 Best Practices`, `100 SEO`.
 
 **Link to website:** https://hodinportfoliotemplate.netlify.app/
 
@@ -7,7 +7,7 @@ A modern, semantic, and responsive portfolio website template for web developers
 
 **Google Lighthouse audit scored:**
 
-<img width="497" alt="Screenshot 2023-03-08 at 2 59 15 PM" src="https://user-images.githubusercontent.com/100463706/223882913-4927b070-2a7a-4b80-8a90-132dcf5b34cb.png">
+<img width="494" alt="Screenshot 2023-06-08 at 12 56 45 PM" src="https://github.com/hodinsay/portfolio-website-template/assets/100463706/b93a17b3-923f-40b3-9872-defb287573a6">
 
 # Features
 - Annotated with comment guide in component file to help you get start using the template.
